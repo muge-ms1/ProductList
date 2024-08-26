@@ -1,8 +1,53 @@
+*{
+    margin: 0;
+    padding: 5px;
+  }
+/* Light Theme */
+:root {
+    --card-bg: #fff;
+    --card-text-color: #333;
+    --card-border: 1px solid #ddd;
+    --badge-bg: #007bff;
+    --button-bg: #007bff;
+    --button-text-color: #fff;
+  }
+  
+  /* Dark Theme */
+  .dark-theme {
+    --card-bg: #333;
+    --card-text-color: #fff;
+    --card-border: 1px solid #444;
+    --badge-bg: #17a2b8;
+    --button-bg: #17a2b8;
+    --button-text-color: #fff;
+    background-color: black;
+  }
+  
+  .container {
+    padding: 0 15px;
+  }
+  
+  .card {
+    border: var(--card-border);
+    background-color: var(--card-bg);
+  }
+  
+  .card-title, .card-text {
+    color: var(--card-text-color);
+  }
+  
+  .badge {
+    background-color: var(--badge-bg);
+  }
+  
+  .btn-primary {
+    margin-top: 7px;
+    background-color: var(--button-bg);
+    color: var(--button-text-color);
+    border: none;
+
+  }
+  
 .product-link {
     text-decoration: none;
-    color: black;
-}
-
-.card-title, .card-text {
-    color: black;
 }
